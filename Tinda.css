@@ -1,37 +1,84 @@
 body {
     font-family: Arial;
-    background-color: #f4f4f4;
+    background-color: #5280ff;
     padding: 20px;
     border-radius: 20px;
+    display: grid;
+    
     
 
 }
-
-h1 {
-    color: #4177ad;
-}
-
-h2 {
-    color: #5e8fc0;
-}
-header{
-    background-color: rgb(112, 112, 196);
-    border-radius: 20px;
+#nav{
     display: flex;
-    gap: 30px;
+    background-color: rgb(9, 9, 14);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+   
+    
 }
 #Profile-image img{
-    border-radius: 20px;
-    height: 80%;
-    width: 80%;
+    border-radius: 30px;
+    zoom: 10%;
+}
+#tab-links{
+   
+    justify-content: space-between;
+    
+
 }
 
 #tab-links a{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: none;
-    gap: 30px;
+   
     
     
+
+}
+#session1{
+
+    background-color: rgb(22, 82, 90);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    padding: 90px;
+}
+#session1:hover{
+    background-color: rgb(26, 66, 53);
+    margin: 20px;
+    transition: 500ms;
+}
+
+
+
+#session{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+}
+#session:hover{
+    background-color: rgb(233, 241, 241);
+
+}
+#session button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+#session button a{
+    color: white;
+    text-decoration:none;
+    zoom: 1.2;
+}
+#session button:hover{
+    background-color: rgb(202, 105, 15);
 
 }
