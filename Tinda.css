@@ -2,12 +2,36 @@ body {
     font-family: Arial;
     background-color: #f4f4f4;
     padding: 20px;
+    border-radius: 20px;
+    
+
 }
 
 h1 {
-    color: #2c3e50;
+    color: #4177ad;
 }
 
 h2 {
-    color: #34495e;
+    color: #5e8fc0;
+}
+header{
+    background-color: rgb(112, 112, 196);
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+}
+#Profile-image img{
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+}
+
+#tab-links a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    gap: 30px;
+    
+    
+
 }
